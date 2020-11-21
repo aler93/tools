@@ -1,4 +1,4 @@
-package tools
+package helpers
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ const SYMBOL = "R$"
 
 func Money32(value float32, symbol bool) string {
 	if symbol {
-		return fmt.Sprintf(SYMBOL + " %.2f", value)
+		return fmt.Sprintf(SYMBOL+" %.2f", value)
 	}
 
 	return fmt.Sprintf("%.2f", value)

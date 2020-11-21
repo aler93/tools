@@ -1,6 +1,6 @@
 // Several functions converting variables types
 
-package tools
+package helpers
 
 import (
 	"fmt"

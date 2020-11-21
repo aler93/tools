@@ -1,4 +1,4 @@
-package tools
+package helpers
 
 var errorVal bool
 var errorMsg string
